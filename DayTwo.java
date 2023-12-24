@@ -16,5 +16,30 @@ public class DayTwo {
         System.out.println("This is number" + IntExamp);
         System.out.println("This is Boolen" + BoolenExamp);
 
+
+
+  
+        System.out.println("Hello from MainClass!");
+
+        // Creating an object of AnotherClass and calling its method
+        AnotherClass anotherObj = new AnotherClass();
+        anotherObj.display();
+    }
+    
+}
+
+
+
+
+class AnotherClass {
+    void display() {
+        System.out.println("Hello from AnotherClass!");
     }
 }
+
+class YetAnotherClass {
+    void showMessage() {
+        System.out.println("Hello from YetAnotherClass!");
+    }
+}
+
