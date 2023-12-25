@@ -54,7 +54,7 @@ public class DayThree {
     public static void main(String[] args) {
 
     System.out.println("This is the system Out");
-    Scanner input = new Scanner(System.in);
+    // Scanner input = new Scanner(System.in);
 
 
     }
@@ -96,14 +96,17 @@ class PrimitiveClass{
 class TakesInput{
 
 public static void main(String[] args) {
-    
-
     Scanner Test = new Scanner(System.in);
-    
+    System.out.println("Please enter your input here");
+    int rollno = 20;
+    System.out.println("Your Roll no is " + rollno);
 
+    int a = 10 ;
+    int b = 5;
+
+    System.out.println(  a+b);
+}
 }
 
 
-
-}
 
